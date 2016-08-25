@@ -6,11 +6,17 @@
 </head>
 <body>
   <h1>Local Weather</h1>
-  <button id="auth-btn" type="button">Sign in with Google</button>
   <div>
+    <button id="auth-btn" type="button">Sign in with Google</button>
+  </div>
+  <div class="weatherInput">
+    <label>Zip Code</label>
+    <input type="text" name="zipCode" id="zipCode">
+    <button type="button" id="addButton">Get the Weather</button>
+  </div>
+  <div class="weatherOutput">
     <!-- Weather Info Here -->
   </div>
-
 <script src="dist/app.js"></script>
 </body>
 </html>
